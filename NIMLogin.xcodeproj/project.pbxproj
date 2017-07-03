@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011764BA1EA509CF00B66F48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 011764B91EA509CF00B66F48 /* main.m */; };
+		011764BD1EA509CF00B66F48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 011764BC1EA509CF00B66F48 /* AppDelegate.m */; };
+		011764C01EA509CF00B66F48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011764BF1EA509CF00B66F48 /* ViewController.m */; };
+		011764C31EA509CF00B66F48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011764C11EA509CF00B66F48 /* Main.storyboard */; };
+		011764C51EA509CF00B66F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011764C41EA509CF00B66F48 /* Assets.xcassets */; };
+		011764C81EA509CF00B66F48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011764C61EA509CF00B66F48 /* LaunchScreen.storyboard */; };
+		011764D31EA509CF00B66F48 /* NIMLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 011764D21EA509CF00B66F48 /* NIMLoginTests.m */; };
+		011764DE1EA509CF00B66F48 /* NIMLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 011764DD1EA509CF00B66F48 /* NIMLoginUITests.m */; };
+		011764ED1EA5A91700B66F48 /* MainTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 011764EC1EA5A91700B66F48 /* MainTab.m */; };
+		011764F01EA5A93600B66F48 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011764EF1EA5A93600B66F48 /* loginViewController.m */; };
+		E307ADBF225E83BE312B2A90 /* libPods-NIMLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D46603CC5CACA6C692DA8893 /* libPods-NIMLogin.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		011764CF1EA509CF00B66F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 011764AD1EA509CF00B66F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 011764B41EA509CF00B66F48;
+			remoteInfo = NIMLogin;
+		};
+		011764DA1EA509CF00B66F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 011764AD1EA509CF00B66F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 011764B41EA509CF00B66F48;
+			remoteInfo = NIMLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011764B51EA509CF00B66F48 /* NIMLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIMLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		011764B91EA509CF00B66F48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		011764BB1EA509CF00B66F48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		011764BC1EA509CF00B66F48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		011764BE1EA509CF00B66F48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		011764BF1EA509CF00B66F48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		011764C21EA509CF00B66F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		011764C41EA509CF00B66F48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		011764C71EA509CF00B66F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		011764C91EA509CF00B66F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011764CE1EA509CF00B66F48 /* NIMLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIMLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		011764D21EA509CF00B66F48 /* NIMLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMLoginTests.m; sourceTree = "<group>"; };
+		011764D41EA509CF00B66F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011764D91EA509CF00B66F48 /* NIMLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIMLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		011764DD1EA509CF00B66F48 /* NIMLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMLoginUITests.m; sourceTree = "<group>"; };
+		011764DF1EA509CF00B66F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011764EB1EA5A91700B66F48 /* MainTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTab.h; sourceTree = "<group>"; };
+		011764EC1EA5A91700B66F48 /* MainTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTab.m; sourceTree = "<group>"; };
+		011764EE1EA5A93600B66F48 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		011764EF1EA5A93600B66F48 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		160375464A56CC34C1B5C4D4 /* Pods-NIMLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIMLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-NIMLogin/Pods-NIMLogin.release.xcconfig"; sourceTree = "<group>"; };
+		50336D58C2616B8AE9C012DD /* Pods-NIMLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIMLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NIMLogin/Pods-NIMLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		D46603CC5CACA6C692DA8893 /* libPods-NIMLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NIMLogin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		011764B21EA509CF00B66F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E307ADBF225E83BE312B2A90 /* libPods-NIMLogin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011764CB1EA509CF00B66F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011764D61EA509CF00B66F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011764AC1EA509CF00B66F48 = {
+			isa = PBXGroup;
+			children = (
+				011764B71EA509CF00B66F48 /* NIMLogin */,
+				011764D11EA509CF00B66F48 /* NIMLoginTests */,
+				011764DC1EA509CF00B66F48 /* NIMLoginUITests */,
+				011764B61EA509CF00B66F48 /* Products */,
+				83D094779D8E2223316EC11F /* Pods */,
+				8CCE9989D4471A3B7DCE038C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		011764B61EA509CF00B66F48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				011764B51EA509CF00B66F48 /* NIMLogin.app */,
+				011764CE1EA509CF00B66F48 /* NIMLoginTests.xctest */,
+				011764D91EA509CF00B66F48 /* NIMLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		011764B71EA509CF00B66F48 /* NIMLogin */ = {
+			isa = PBXGroup;
+			children = (
+				011764BB1EA509CF00B66F48 /* AppDelegate.h */,
+				011764BC1EA509CF00B66F48 /* AppDelegate.m */,
+				011764EE1EA5A93600B66F48 /* loginViewController.h */,
+				011764EF1EA5A93600B66F48 /* loginViewController.m */,
+				011764EB1EA5A91700B66F48 /* MainTab.h */,
+				011764EC1EA5A91700B66F48 /* MainTab.m */,
+				011764BE1EA509CF00B66F48 /* ViewController.h */,
+				011764BF1EA509CF00B66F48 /* ViewController.m */,
+				011764C11EA509CF00B66F48 /* Main.storyboard */,
+				011764C41EA509CF00B66F48 /* Assets.xcassets */,
+				011764C61EA509CF00B66F48 /* LaunchScreen.storyboard */,
+				011764C91EA509CF00B66F48 /* Info.plist */,
+				011764B81EA509CF00B66F48 /* Supporting Files */,
+			);
+			path = NIMLogin;
+			sourceTree = "<group>";
+		};
+		011764B81EA509CF00B66F48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				011764B91EA509CF00B66F48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		011764D11EA509CF00B66F48 /* NIMLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				011764D21EA509CF00B66F48 /* NIMLoginTests.m */,
+				011764D41EA509CF00B66F48 /* Info.plist */,
+			);
+			path = NIMLoginTests;
+			sourceTree = "<group>";
+		};
+		011764DC1EA509CF00B66F48 /* NIMLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				011764DD1EA509CF00B66F48 /* NIMLoginUITests.m */,
+				011764DF1EA509CF00B66F48 /* Info.plist */,
+			);
+			path = NIMLoginUITests;
+			sourceTree = "<group>";
+		};
+		83D094779D8E2223316EC11F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50336D58C2616B8AE9C012DD /* Pods-NIMLogin.debug.xcconfig */,
+				160375464A56CC34C1B5C4D4 /* Pods-NIMLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CCE9989D4471A3B7DCE038C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D46603CC5CACA6C692DA8893 /* libPods-NIMLogin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		011764B41EA509CF00B66F48 /* NIMLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011764E21EA509CF00B66F48 /* Build configuration list for PBXNativeTarget "NIMLogin" */;
+			buildPhases = (
+				EB56536FFFEE54307C8F222F /* [CP] Check Pods Manifest.lock */,
+				011764B11EA509CF00B66F48 /* Sources */,
+				011764B21EA509CF00B66F48 /* Frameworks */,
+				011764B31EA509CF00B66F48 /* Resources */,
+				0D14DD1DE498E352A39DD6D9 /* [CP] Embed Pods Frameworks */,
+				5BD18F555A1224AE9CF64605 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NIMLogin;
+			productName = NIMLogin;
+			productReference = 011764B51EA509CF00B66F48 /* NIMLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		011764CD1EA509CF00B66F48 /* NIMLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011764E51EA509CF00B66F48 /* Build configuration list for PBXNativeTarget "NIMLoginTests" */;
+			buildPhases = (
+				011764CA1EA509CF00B66F48 /* Sources */,
+				011764CB1EA509CF00B66F48 /* Frameworks */,
+				011764CC1EA509CF00B66F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				011764D01EA509CF00B66F48 /* PBXTargetDependency */,
+			);
+			name = NIMLoginTests;
+			productName = NIMLoginTests;
+			productReference = 011764CE1EA509CF00B66F48 /* NIMLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		011764D81EA509CF00B66F48 /* NIMLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011764E81EA509CF00B66F48 /* Build configuration list for PBXNativeTarget "NIMLoginUITests" */;
+			buildPhases = (
+				011764D51EA509CF00B66F48 /* Sources */,
+				011764D61EA509CF00B66F48 /* Frameworks */,
+				011764D71EA509CF00B66F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				011764DB1EA509CF00B66F48 /* PBXTargetDependency */,
+			);
+			name = NIMLoginUITests;
+			productName = NIMLoginUITests;
+			productReference = 011764D91EA509CF00B66F48 /* NIMLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		011764AD1EA509CF00B66F48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nick Deng";
+				TargetAttributes = {
+					011764B41EA509CF00B66F48 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = A9356BL3X4;
+						ProvisioningStyle = Automatic;
+					};
+					011764CD1EA509CF00B66F48 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = A9356BL3X4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 011764B41EA509CF00B66F48;
+					};
+					011764D81EA509CF00B66F48 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = A9356BL3X4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 011764B41EA509CF00B66F48;
+					};
+				};
+			};
+			buildConfigurationList = 011764B01EA509CF00B66F48 /* Build configuration list for PBXProject "NIMLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 011764AC1EA509CF00B66F48;
+			productRefGroup = 011764B61EA509CF00B66F48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				011764B41EA509CF00B66F48 /* NIMLogin */,
+				011764CD1EA509CF00B66F48 /* NIMLoginTests */,
+				011764D81EA509CF00B66F48 /* NIMLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		011764B31EA509CF00B66F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011764C81EA509CF00B66F48 /* LaunchScreen.storyboard in Resources */,
+				011764C51EA509CF00B66F48 /* Assets.xcassets in Resources */,
+				011764C31EA509CF00B66F48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011764CC1EA509CF00B66F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011764D71EA509CF00B66F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D14DD1DE498E352A39DD6D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NIMLogin/Pods-NIMLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BD18F555A1224AE9CF64605 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NIMLogin/Pods-NIMLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB56536FFFEE54307C8F222F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		011764B11EA509CF00B66F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011764ED1EA5A91700B66F48 /* MainTab.m in Sources */,
+				011764F01EA5A93600B66F48 /* loginViewController.m in Sources */,
+				011764C01EA509CF00B66F48 /* ViewController.m in Sources */,
+				011764BD1EA509CF00B66F48 /* AppDelegate.m in Sources */,
+				011764BA1EA509CF00B66F48 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011764CA1EA509CF00B66F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011764D31EA509CF00B66F48 /* NIMLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011764D51EA509CF00B66F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011764DE1EA509CF00B66F48 /* NIMLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		011764D01EA509CF00B66F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 011764B41EA509CF00B66F48 /* NIMLogin */;
+			targetProxy = 011764CF1EA509CF00B66F48 /* PBXContainerItemProxy */;
+		};
+		011764DB1EA509CF00B66F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 011764B41EA509CF00B66F48 /* NIMLogin */;
+			targetProxy = 011764DA1EA509CF00B66F48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		011764C11EA509CF00B66F48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				011764C21EA509CF00B66F48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		011764C61EA509CF00B66F48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				011764C71EA509CF00B66F48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		011764E01EA509CF00B66F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		011764E11EA509CF00B66F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		011764E31EA509CF00B66F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50336D58C2616B8AE9C012DD /* Pods-NIMLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9356BL3X4;
+				INFOPLIST_FILE = NIMLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.NIMLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		011764E41EA509CF00B66F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160375464A56CC34C1B5C4D4 /* Pods-NIMLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9356BL3X4;
+				INFOPLIST_FILE = NIMLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.NIMLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		011764E61EA509CF00B66F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A9356BL3X4;
+				INFOPLIST_FILE = NIMLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.NIMLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIMLogin.app/NIMLogin";
+			};
+			name = Debug;
+		};
+		011764E71EA509CF00B66F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A9356BL3X4;
+				INFOPLIST_FILE = NIMLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.NIMLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIMLogin.app/NIMLogin";
+			};
+			name = Release;
+		};
+		011764E91EA509CF00B66F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A9356BL3X4;
+				INFOPLIST_FILE = NIMLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.NIMLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NIMLogin;
+			};
+			name = Debug;
+		};
+		011764EA1EA509CF00B66F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A9356BL3X4;
+				INFOPLIST_FILE = NIMLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.NIMLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NIMLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		011764B01EA509CF00B66F48 /* Build configuration list for PBXProject "NIMLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011764E01EA509CF00B66F48 /* Debug */,
+				011764E11EA509CF00B66F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011764E21EA509CF00B66F48 /* Build configuration list for PBXNativeTarget "NIMLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011764E31EA509CF00B66F48 /* Debug */,
+				011764E41EA509CF00B66F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011764E51EA509CF00B66F48 /* Build configuration list for PBXNativeTarget "NIMLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011764E61EA509CF00B66F48 /* Debug */,
+				011764E71EA509CF00B66F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011764E81EA509CF00B66F48 /* Build configuration list for PBXNativeTarget "NIMLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011764E91EA509CF00B66F48 /* Debug */,
+				011764EA1EA509CF00B66F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 011764AD1EA509CF00B66F48 /* Project object */;
+}
