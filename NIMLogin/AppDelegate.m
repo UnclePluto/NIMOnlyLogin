@@ -7,9 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import <NIMSDK/NIMSDK.h>
 #import "MainTab.h"
 #import "loginViewController.h"
+#import <NIMSDK/NIMSDK.h>
 
 @interface AppDelegate ()<NIMLoginManagerDelegate>
 @property (strong, nonatomic) MainTab *mainTabVC;
